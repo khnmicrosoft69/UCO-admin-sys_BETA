@@ -1,0 +1,12 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import ResponsiveLayout from '@/components/react/ui/ResponsiveLayout.jsx';
+import Content from '@/components/react/interactive/MediaAnalyticsContent.jsx';
+import '@/assets/global.css';
+---
+
+<Layout title="Media Analytics">
+  <ResponsiveLayout client:load>
+    <Content client:load /> 
+  </ResponsiveLayout>
+</Layout>

@@ -1,0 +1,12 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import ResponsiveLayout from '@/components/react/ui/ResponsiveLayout.jsx';
+import Content from '@/components/react/interactive/TeamCalendarContent.jsx';
+import '@/assets/global.css';
+---
+
+<Layout title="Team Calendar">
+  <ResponsiveLayout client:load>
+    <Content client:load /> 
+  </ResponsiveLayout>
+</Layout>

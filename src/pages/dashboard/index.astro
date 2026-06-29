@@ -1,0 +1,12 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import ResponsiveLayout from '@/components/react/ui/ResponsiveLayout.jsx';
+import DashboardContent from '@/components/react/interactive/DashboardContent.jsx';
+import '@/assets/global.css';
+---
+
+<Layout title="UCO Admin Dashboard">
+  <ResponsiveLayout client:load>
+    <DashboardContent client:load /> 
+  </ResponsiveLayout>
+</Layout>

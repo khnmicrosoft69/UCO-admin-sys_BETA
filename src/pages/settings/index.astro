@@ -1,0 +1,18 @@
+---
+import ResponsiveLayout from '@/components/react/ui/ResponsiveLayout.jsx';
+import SettingsContent from '@/components/react/interactive/SettingsContent.jsx';
+import '@/assets/global.css';
+---
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>System Settings | UCO Admin</title>
+</head>
+<body class="bg-slate-50">
+  <ResponsiveLayout client:load>
+    <SettingsContent client:load /> 
+  </ResponsiveLayout>
+</body>
+</html>

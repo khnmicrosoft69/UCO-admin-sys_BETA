@@ -1,0 +1,12 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import ResponsiveLayout from '@/components/react/ui/ResponsiveLayout.jsx';
+import DepartmentsContent from '@/components/react/interactive/DepartmentsContent.jsx';
+import '@/assets/global.css';
+---
+
+<Layout title="By Department | UCO Admin">
+  <ResponsiveLayout client:load>
+    <DepartmentsContent client:load /> 
+  </ResponsiveLayout>
+</Layout>

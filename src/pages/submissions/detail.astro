@@ -1,0 +1,19 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import ResponsiveLayout from '@/components/react/ui/ResponsiveLayout.jsx';
+import SubmissionDetailContent from '@/components/react/interactive/SubmissionDetailContent.jsx';
+import '@/assets/global.css';
+---
+
+<Layout title="Submission Details | UCO Admin">
+  <ResponsiveLayout client:load>
+    <div class="mb-8">
+      <a href="/submissions" class="text-[10px] font-black text-[#A3AED0] hover:text-[#547DBE] uppercase tracking-widest flex items-center gap-2 transition-colors">
+        ← BACK TO SUBMISSIONS
+      </a>
+    </div>
+    
+
+    <SubmissionDetailContent client:load />
+  </ResponsiveLayout>
+</Layout>

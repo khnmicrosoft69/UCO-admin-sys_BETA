@@ -1,0 +1,16 @@
+<script is:inline>
+  (function() {
+    // Ensure a default theme exists
+    if (!localStorage.getItem('admin-theme')) {
+        localStorage.setItem('admin-theme', 'light');
+    }
+    
+    const savedTheme = localStorage.getItem('admin-theme');
+    
+    if (savedTheme === 'dark') {
+        document.documentElement.classList.add('dark');
+    } else {
+        document.documentElement.classList.remove('dark');
+    }
+  })();
+</script>

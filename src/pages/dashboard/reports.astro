@@ -1,0 +1,11 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import ResponsiveLayout from '@/components/react/ui/ResponsiveLayout.jsx';
+import Content from '@/components/react/interactive/ReportGeneratorContent.jsx';
+import '@/assets/global.css';
+---
+<Layout title="Report Generator">
+   <ResponsiveLayout client:load>
+    <Content client:load /> 
+  </ResponsiveLayout>
+</Layout>
