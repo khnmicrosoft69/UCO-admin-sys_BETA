@@ -5,7 +5,7 @@ import Content from '@/components/react/interactive/ArchivedFormsContent.jsx';
 import '@/assets/global.css';
 ---
 <Layout title="Archived Forms">
-    <ResponsiveLayout client:load>
-    <Content client:load /> 
+    <ResponsiveLayout client:only="react">
+    <Content client:only="react" /> 
   </ResponsiveLayout>
 </Layout>
