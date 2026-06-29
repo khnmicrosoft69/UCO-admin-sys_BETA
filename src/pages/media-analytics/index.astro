@@ -6,7 +6,7 @@ import '@/assets/global.css';
 ---
 
 <Layout title="Media Analytics">
-  <ResponsiveLayout client:load>
-    <Content client:load /> 
+  <ResponsiveLayout client:only="react">
+    <Content client:only="react" /> 
   </ResponsiveLayout>
 </Layout>
