@@ -6,7 +6,7 @@ import '@/assets/global.css';
 ---
 
 <Layout title="Submission Details | UCO Admin">
-  <ResponsiveLayout client:load>
+  <ResponsiveLayout client:only="react">
     <div class="mb-8">
       <a href="/submissions" class="text-[10px] font-black text-[#A3AED0] hover:text-[#547DBE] uppercase tracking-widest flex items-center gap-2 transition-colors">
         ← BACK TO SUBMISSIONS
@@ -14,6 +14,6 @@ import '@/assets/global.css';
     </div>
     
 
-    <SubmissionDetailContent client:load />
+    <SubmissionDetailContent client:only="react"/>
   </ResponsiveLayout>
 </Layout>

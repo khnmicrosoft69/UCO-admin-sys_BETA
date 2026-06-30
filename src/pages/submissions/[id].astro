@@ -8,13 +8,13 @@ const { id } = Astro.params;
 ---
 
 <Layout title={`Submission #${id} | UCO Admin`}>
-  <ResponsiveLayout client:load>
+  <ResponsiveLayout client:only="react">
     <div class="mb-8">
       <a href="/submissions" class="text-[10px] font-black text-[#A3AED0] hover:text-[#547DBE] uppercase tracking-widest flex items-center gap-2 transition-colors">
         ← BACK TO SUBMISSIONS
       </a>
     </div>
 
-    <SubmissionDetailContent client:load id={id} />
+    <SubmissionDetailContent client:only="react" id={id} />
   </ResponsiveLayout>
 </Layout>

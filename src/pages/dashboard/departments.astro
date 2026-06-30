@@ -6,7 +6,7 @@ import '@/assets/global.css';
 ---
 
 <Layout title="By Department | UCO Admin">
-  <ResponsiveLayout client:load>
-    <DepartmentsContent client:load /> 
+  <ResponsiveLayout client:only="react">
+    <DepartmentsContent client:only="react" /> 
   </ResponsiveLayout>
 </Layout>

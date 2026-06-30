@@ -6,7 +6,7 @@ import '@/assets/global.css';
 ---
 
 <Layout title="All Submissions | UCO Admin">
-  <ResponsiveLayout client:load>
-    <SubmissionsContent client:load /> 
+  <ResponsiveLayout client:only="react">
+    <SubmissionsContent client:only="react" /> 
   </ResponsiveLayout>
 </Layout>
