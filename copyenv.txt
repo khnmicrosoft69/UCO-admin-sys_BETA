@@ -1,0 +1,35 @@
+DATABASE_URL=postgresql://postgres:uco_sys0aiug5@db.pgbdcijighvtahifyvog.supabase.co:5432/postgres
+
+postgres://postgres.pgbdcijighvtahifyvog:uco_sys0aiug5@aws-0-ap-southeast-2.pooler.supabase.com:6543/postgres?pgbouncer=true
+
+postgresql://postgres.pgbdcijighvtahifyvog:uco_sys0aiug5@aws-1-ap-southeast-2.pooler.supabase.com:6543/postgres
+
+DB_HOST=localhost
+
+
+DB_USER=root
+DB_PASSWORD=uco_sys0aiug5
+DB_NAME=uco_sys
+DB_PORT=3306
+
+
+GOOGLE_CREDENTIALS='{
+  "type": "service_account",
+  "project_id": "reliable-mode-500816-v1",
+  "private_key_id": "03ea9e84cac07ebe53e65b617c378cf4e9b2d40b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDZ1wO17+pTS630\no1gipWKyxQWJr7zM/LrPea0r10hp2IXwqoKWi7wPu9/Y7DS8mKVRhwUn5bvHC95s\nqw0fM3l+Y2Ss/+opc0f5hYI/2WRpYEsFTD29i8CWB2g8nwa118sAcvw+SpcyrJMp\n+h3k0Vt4WNJUKgBMDz1Jes0QMp9W53naMl9nSMMJiDW284WgwXHFz5479UomKTST\nqYvB746wbFWu1kshxYSOwUa5GlqVNjjEJjTVQdxFwmIbnJcSeHgC5+YZ1ZNplC32\n0OTbZvdZkqWbZZ9hVSPfQ9Of0NSVaZZO/zs6//tReE7VKQI+4aY01jTQAFA5aHh2\nYvco36JDAgMBAAECggEAFx6aTrdpQ7DfA/1ID9lEqdt+NHg5zfmuq/FqfyIolc88\nm+fE10x6R6M1ZTTgffmnZgkx82OO89efIiJfUKXqaY8L8s5wYDjTdTiFs9gTL5ng\nLG5EiTbpWCLuHaz1Ddyat2/8tHG/LUoijkx02sGbdyDaJcOVZ30gkIlfdS4iOhtB\n8nocyZjNTXO8SglsNFVuMw91xJGkANCqvKWJjTI5DnsZMrfqJgodmV/TCqYQ4rTz\nyGrvDj7PpUICbkXCEJEvrn2vIrfDzoBJugcs93rtLj3mMQhJI5eLzCw5cOjtfERG\nwEie9md+HWAgK7EFT0+sP0AHSIU/q4NLWCNPWFmOZQKBgQDvRgEAsjRZ+kvutipF\no4cHWXQxGuMX7t3MrsCes/GVGsAIPo1JJDaS5gxj5X5iXeCIjn/MJ+APkk5wEqQ+\nT0VIaKZ8sPE5f+RVIELttFdw6zsEU0fvoaFoZLpJ6VY8aTgcK5OXoA2qUkbzVZq/\n6QGdNCbr7Ag/jszQsrWWVodolwKBgQDpEXB/+ML2ttPVSGIcwchRVzmXDKp1HIfg\nDWK+nbUEb0w3JCreeZU21cvIN5+9qsflV8wnYL1baVI005Own5mRxkLl0MwdLJPG\nRsvV5KYzVi02184bX1H/6Qa6MvDyMQYHFRuddTRKFRCUm8v7U1rHb8pDCWFp34Rh\nlDYE1s09NQKBgQClyWpucgtGAOBV8RBPGiQ4GmogkBGjhpVV+gtqqyGLf3JpA/Zf\nJGFP3WfeW6f7PjKSS7IO4d4ky+nfS3tT1RcbOa+JnAw4G/44YVceXqNrkQFeWNny\nFprAu3I8PhnLV9hR5HuqRnLRfZq9haXorOi6ZOVG+E8qwqX1QK4DEcdW1wKBgQCD\nCdIVsVh0fACH5wV6o50r1n3DplRkOeFPIFeHUoYG80iHrCcKJJO3W+cSL+v5KH7x\nPDbFYQe10HZuyxI7eNBP/Id6TLWmJX0EOqO6I68qJ+aN8jGohCRHXM3yfFep49Q+\nwShglBgNGuDSnPHH4WqlvP2cSTbi3s/ASSNB/z8vjQKBgBLV0zFp+W0bEryuv+lB\n/0Wa0vEfYqz5znZQIpbGaxrlHSsC8tWorW69c2V9bEmkTWqWjMgxfQ5Ih0fCLdfF\nhIOXhbmPd4TWd0mjZu775HPMqnCeoWt1zR0nZj9P41JZEcRLqY4U9w/PQVac4iOW\nuqFyUiFPQ4u64gh6YcnnSBGc\n-----END PRIVATE KEY-----\n",
+  "client_email": "drive-uploader@reliable-mode-500816-v1.iam.gserviceaccount.com",
+  "client_id": "104439993889638168545",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/drive-uploader%40reliable-mode-500816-v1.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}'
+GOOGLE_DRIVE_FOLDER_ID='16qrrpWUbNou2_DNk9XD3QKJyuSGedddI'
+
+
+
+SUPABASE_URL='https://pgbdcijighvtahifyvog.supabase.co'
+SUPABASE_ANON_KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBnYmRjaWppZ2h2dGFoaWZ5dm9nIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI2NTAwNjUsImV4cCI6MjA5ODIyNjA2NX0.RoWHtnswE9dgcivftgoEidf3kX-mvtSCSublASRxMKM'
+SUPABASE_SERVICE_ROLE_KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBnYmRjaWppZ2h2dGFoaWZ5dm9nIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MjY1MDA2NSwiZXhwIjoyMDk4MjI2MDY1fQ.C77WuZ-BjFUIu-rVjUJ5njGY3-g3JXjA3Y85ePr__Cg'
